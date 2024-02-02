@@ -9,6 +9,20 @@
 /*--------------------
     GENERAL
 --------------------*/  
+.bg-blue{
+    min-height: 400px;
+    background-color: #00008b;
+    padding: 45px 0px;
+}
+
+
+.rectangle-1{
+    min-width: 60%;
+    min-height: 400px;
+    background-color: #1e90ff;
+    margin: 0 auto;
+    border: 3px dashed black;
+}
 
 
 /*--------------------
@@ -31,19 +45,22 @@ header{
 .col-20{
     width: 20%;
     padding: 10px;
-    border: 1px dashed black;
+    border: 3px dashed black;
 }
 .col-60{
     display: flex;
     justify-content: center;
     width: 60%;
     padding: 10px;
-    border: 1px dashed black;
+    border: 3px dashed black;
 }
 .container-header > :last-child{
     text-align: end;
 }
-
-
-
-
+/*--------------------
+    MAIN
+--------------------*/
+.pink{
+    background-color: #ee82ee;
+    max-width: 900px;
+}
