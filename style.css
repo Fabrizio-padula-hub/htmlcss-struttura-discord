@@ -15,12 +15,18 @@
     padding: 45px 0px;
 }
 
+.bg-lighgrey{
+    min-height: 400px;
+    background-color: #d3d3d3;
+    padding: 45px 0px;
+}
+
 .wrapper{
     max-width: 1180px;
     min-height: 400px;
     margin: 0 auto;
     display: flex;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     padding: 50px 0px;
 }
 
@@ -80,4 +86,8 @@ header{
 .pink{
     background-color: #ee82ee;
     max-width: 900px;
+}
+
+main .wrapper:nth-child(2) {
+    flex-direction: row-reverse;
 }
