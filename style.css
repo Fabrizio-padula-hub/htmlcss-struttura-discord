@@ -9,18 +9,6 @@
 /*--------------------
     GENERAL
 --------------------*/  
-.bg-blue{
-    min-height: 400px;
-    background-color: #00008b;
-    padding: 45px 0px;
-}
-
-.bg-lighgrey{
-    min-height: 400px;
-    background-color: #d3d3d3;
-    padding: 45px 0px;
-}
-
 .wrapper{
     max-width: 1180px;
     min-height: 400px;
@@ -45,8 +33,21 @@
     margin: 0 auto;
     border: 3px dashed black;
 }
+/*--------------------
+    BACKGROUND
+--------------------*/
+.bg-gen{
+    min-height: 400px;
+    padding: 45px 0px;
+}
 
+.blue{
+    background-color: #00008b;
+}
 
+.lightgrey{
+    background-color: #d3d3d3;
+}
 
 /*--------------------
     HEADER
@@ -83,9 +84,9 @@ header{
 /*--------------------
     MAIN
 --------------------*/
-.pink{
+.rectangle-1.pink{
     background-color: #ee82ee;
-    max-width: 900px;
+    max-width: 60%;
 }
 
 main .wrapper:nth-child(2) {
