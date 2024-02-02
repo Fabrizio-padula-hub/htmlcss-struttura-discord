@@ -15,6 +15,14 @@
     padding: 45px 0px;
 }
 
+.wrapper{
+    max-width: 1180px;
+    min-height: 400px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: nowrap;
+    padding: 50px 0px;
+}
 
 .rectangle-1{
     min-width: 60%;
@@ -23,6 +31,15 @@
     margin: 0 auto;
     border: 3px dashed black;
 }
+
+.rectangle-2{
+    min-width: 40%;
+    min-height: 400px;
+    background-color: #ffc0cb;
+    margin: 0 auto;
+    border: 3px dashed black;
+}
+
 
 
 /*--------------------
