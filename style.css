@@ -92,3 +92,9 @@ header{
 .bg-gen.lightgrey .wrapper {
     flex-direction: row-reverse;
 }
+
+.green{
+    background-color: #228b22;
+    max-width: 1180px;
+    min-height: 800px;
+}
