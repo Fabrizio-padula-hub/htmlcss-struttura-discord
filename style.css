@@ -84,11 +84,11 @@ header{
 /*--------------------
     MAIN
 --------------------*/
-.rectangle-1.pink{
+.pink{
     background-color: #ee82ee;
     max-width: 60%;
 }
 
-main .wrapper:nth-child(2) {
+.bg-gen.lightgrey .wrapper {
     flex-direction: row-reverse;
 }
